@@ -1,13 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+
 const Navbar = () => {
     return (
         <div>
-            <nav>
-                <Link to ='/page1'>Page1</Link>
-            </nav>
-            
+            <Link to = 'page1'>page1</Link>
         </div>
     );
 };
